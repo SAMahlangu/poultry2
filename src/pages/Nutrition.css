@@ -154,7 +154,7 @@
 }
 
 .broiler-structure-image {
-    max-width: 70%;          /* Make the image responsive */
+    max-width: 100%;          /* Make the image responsive */
     height: auto; 
     justify-content: center;   /* Center the image horizontally */
     align-items: center;             /* Maintain aspect ratio */
