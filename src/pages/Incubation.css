@@ -1,0 +1,162 @@
+/* Styling for the Egg Incubation Guide page */
+.incubation-container {
+    padding: 20px;
+    width: 100vw; /* Full viewport width */
+    height: auto; /* Dynamic content height */
+    background-color: #eef2f3; /* Light gray background */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items at the start */
+    align-items: center;
+    margin: 0; /* Remove default margin */
+}
+
+.incubation-title {
+    text-align: center;
+    font-size: 3rem; /* Increased font size */
+    margin-bottom: 30px;
+    color: #2c3e50; /* Dark blue-gray for title */
+}
+
+.incubation-list {
+    list-style: decimal inside;
+    line-height: 2; /* Increased line height */
+    font-size: 1.5rem; /* Increased font size */
+    color: #34495e; /* Dark gray-blue for list */
+    width: 90%; /* Adjust list width to maintain spacing */
+}
+
+.incubation-list li {
+    margin-bottom: 15px;
+}
+
+.incubation-list li:hover {
+    color: #2980b9; /* Blue highlight on hover */
+    cursor: pointer;
+}
+
+/* New styling for each section */
+.incubation-section {
+    width: 90%; /* Consistent width with the list */
+    max-width: 800px; /* Limit section width */
+    margin: 20px auto; /* Center and add margin */
+    padding: 20px; /* Add padding for spacing */
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.incubation-section h2 {
+    font-size: 2.5rem; /* Section title font size */
+    margin-bottom: 15px; /* Space below title */
+    color: #2c3e50; /* Dark blue-gray for section titles */
+}
+
+.incubation-section p {
+    font-size: 1.2rem; /* Paragraph font size */
+    line-height: 1.6; /* Better readability */
+    color: #34495e; /* Dark gray-blue for paragraphs */
+    margin-bottom: 10px; /* Space between paragraphs */
+}
+
+.incubation-section strong {
+    color: #e74c3c; /* Red highlight for emphasis */
+}
+
+@media (max-width: 600px) {
+    .incubation-title {
+        font-size: 2rem; /* Adjust title size for small screens */
+    }
+
+    .incubation-list {
+        font-size: 1.2rem; /* Adjust list font size */
+    }
+
+    .incubation-section h2 {
+        font-size: 2rem; /* Adjust section title size */
+    }
+
+    .incubation-section p {
+        font-size: 1rem; /* Adjust paragraph font size */
+    }
+}
+
+.incubation-image {
+    width: 100%; /* Make images responsive */
+    max-width: 600px; /* Set max width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px 0; /* Space around images */
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+.incubation-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.incubation-table th,
+.incubation-table td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.incubation-table th {
+    background-color: #f2f2f2; /* Light gray for header */
+}
+
+.incubation-images {
+    display: flex;
+    justify-content: space-between; /* Space between images */
+    margin-top: 20px;
+}
+
+.incubation-image-container {
+    width: 48%; /* Adjust container width */
+    text-align: center; /* Center captions */
+}
+
+.incubation-structure-image {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+.incubation-images-container {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .incubation-image-container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .incubation-structure-image {
+    max-width: 100%;
+  }
+  
+.scroll-up-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.scroll-up-button:hover {
+    background-color: #45a049; /* Darker green hover */
+}
+
+.image-caption {
+    color: #000; /* Black text */
+    font-weight: bold; /* Ensure bold styling */
+    text-decoration: none; /* Remove any link-style underlines, if present */
+}

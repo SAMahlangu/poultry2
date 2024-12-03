@@ -45,7 +45,12 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
             <BsFillGrid3X3GapFill className="icon" /> Layer
           </Link>
         </li>
-        
+        <li className="sidebar-list-item">
+          <Link to="/incubation">
+            <BsFillGrid3X3GapFill className="icon" /> Incubation
+          </Link>
+        </li>
+
         <li className="sidebar-list-item">
           <Link to="/recipes">
             <BsListCheck className="icon" /> Recipes
