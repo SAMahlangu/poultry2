@@ -140,7 +140,10 @@
 .scroll-up-button:hover {
     background-color: #45a049; /* Darker green on hover */
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3944f675def7528005efa76aeadc19b04aa0b1a7
 .broiler-images {
     display: flex;             /* Enable flexbox */
     justify-content: center;   /* Center horizontally */

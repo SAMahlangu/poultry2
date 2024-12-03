@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .animated-images {
     display: flex;
     justify-content: center;
@@ -9,4 +10,17 @@
     max-width: 100%;
     max-height: 100%;
   }
+=======
+.animated-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+  }
+  
+  .animated-poultry-farm {
+    max-width: 100%;
+    max-height: 100%;
+  }
+>>>>>>> 3944f675def7528005efa76aeadc19b04aa0b1a7
   
