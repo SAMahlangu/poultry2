@@ -52,6 +52,12 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
         </li>
 
         <li className="sidebar-list-item">
+          <Link to="/butcher">
+            <BsFillGrid3X3GapFill className="icon" /> Butcher
+          </Link>
+        </li>
+
+        <li className="sidebar-list-item">
           <Link to="/recipes">
             <BsListCheck className="icon" /> Recipes
           </Link>
